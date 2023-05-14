@@ -8,7 +8,7 @@ import { faFacebookF, faInstagram, faYoutube, faLinkedin, faFacebookSquare, faLi
 export default function Footer() {
     return (
         <div className="w-full h-full bg-theme-black font-sub-heading" style={{ position: 'relative' }}>
-            <Image className="bg-screen" src={require('../images/footer_dark_bg.png')} alt="Header" objectFit="cover" layout="fill" quality={100} />
+            <Image className="bg-screen" src={require('../images/back.png')} alt="Header" objectFit="cover" layout="fill" quality={100} />
             <div className="grid grid-flow-row grid-cols-1 md:grid-cols-8 place-items-start">
                 <div className="col-start-1 col-end-2 md:col-start-2 md:col-end-4 py-8 md:py-12 px-8 md:px-4">
                         <div className="text-theme-gold text-3xl py-1">Rotaract District Organisation</div>
